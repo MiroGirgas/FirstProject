@@ -6,7 +6,8 @@
   "scripts": {
     "test1": "echo \"Error: no test specified\" && exit 1",
     "generateAutoCompetition": "npx codeceptjs def --config codecept.conf.js",
-    "GoogleTest": "codeceptjs run --config=codecept.conf.js --debug"
+    "GoogleTest": "codeceptjs run --config=codecept.conf.js --debug",
+    "TagSearch": "codeceptjs run --config=codecept.conf.js --debug --grep @Search"
   },
   "keywords": [],
   "author": "",

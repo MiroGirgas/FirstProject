@@ -15,7 +15,7 @@ I.see(GoogleHomePage.navigation.all)
 I.dontSee(GoogleHomePage.fields.searchField)
 
 
-});
+}).tag('@Search').tag('@patricia');
 
 Scenario('Hladam "Miro"', ({ I , GoogleHomePage}) => {
 const searchedString='Miro'    
@@ -29,7 +29,7 @@ I.see(GoogleHomePage.navigation.all)
 I.dontSee(GoogleHomePage.fields.searchField)
 
 
-});
+}).tag('@Search').tag('@miro');
 
 xScenario('Hladam "Miroslav"', ({ I }) => {
 //Tam kde mam x pred scenarom tak sa to nepusti    
